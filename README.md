@@ -8,6 +8,8 @@ Packages to be installed
 Dataset Seismic.csv is read from the file 
 plot of count of Each label present in the dataset is carried out
 <html>
-<img src='count.png'>
+<body>
+<img src='count.png'></img>
+</body>
 </html>
 
