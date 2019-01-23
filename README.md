@@ -12,4 +12,8 @@ plot of count of Each label present in the dataset is carried out
 <img src='count.png'></img>
 </body>
 </html>
-
+The categorical labels are converted to labels having the integer values
+The dataset is divided into training and testing dataset
+then the Randomforest algorithm is called using the sklearn package
+the data is collected from the each tree of the randomforest and then fed to the artificial neural networks for prediction
+the accuracy and loss are evaluated and plots are made based on that data.
