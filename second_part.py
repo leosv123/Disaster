@@ -43,4 +43,14 @@ y_test=np.array(test_data.iloc[:,1]).reshape(len(y_test),1)
 
 
 
+for i in range(10):
+    ss_classifier.train(input_fn=train_input_fn,
+                          hooks=[logging_hook])     # This will produce a lot of output on the console
+    eval_results = ss_classifier.evaluate(input_fn=eval_input_fn)
+    
+    
+    
+    
+    
+    
 
