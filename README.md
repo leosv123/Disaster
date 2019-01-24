@@ -24,3 +24,7 @@ the accuracy and loss are evaluated and plots are made based on that data.
 
 The second_part is python file used for detecting the collapsed and surviving buildings using the satellite and aerial images of ABCD dataset present on github.
 we converted the images to feedable format to the CNN architecture model using pandas and numpy having the three bands red,green and blue with no infrared band included in it.
+
+
+we used Thingxworx for visualization and cloud to send the data massly.
+
